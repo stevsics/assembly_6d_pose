@@ -142,7 +142,7 @@ def plot_from_arguments(dataset_folder, task_name, dataset, mesh_name='manipulat
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset_root', type=str, default='/media/data/Datasets/prepare_dataset_to_publish', help='Path to the folder where the dataset is located.')
+    parser.add_argument('--dataset_root', type=str, default='TODO:DATASET_PATH', help='Path to the folder where the dataset is located.')
     parser.add_argument('--task_name', type=str, default='task_1', help='Task name. Options: task_1, task_2, task_3, task_4.')
     parser.add_argument('--dataset', type=str, default='test', help='The dataset variable is used to choose a dataset type.'
                                                                 'Options: train_original_mesh, train_random_mesh, test.')
