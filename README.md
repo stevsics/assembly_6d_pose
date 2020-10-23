@@ -1,4 +1,4 @@
-# Assembly 6D pose Estimation Dataset demo code
+# Assembly 6D Pose Estimation Dataset Demo Code
 
 This repository provides code that demonstrates how to use the Assembly 6D Pose Estimation dataset. The dataset contains RGB-D images with ground truth annotations.
 
@@ -7,7 +7,7 @@ The dataset is collected for the project published in IEEE Robotics and Automati
 The main purpose of this code is to demonstrate how to use the dataset. The dataset is separated into four tasks. Each task contains two synthetically generated training datasets and a test dataset with real images. For each task, we provide polygonal meshes for the example object, the manipulation object, and the template mesh. For each dataset sample, we provide annotations on ground truth poses. The pose shows where the manipulation object should be placed. In the training dataset, we provide segmentation maps for the template mesh, the target object, and distracting objects.
 
 
-## Running demo code
+## Running Demo Code
 
 To run the demonstration code, add a path to the dataset in run_dataset_examples.sh (substitute TODO:DATASET_PATH with the actual path to the dataset). Run the code with the following command:
 
@@ -39,7 +39,7 @@ If you use the dataset in your research, please cite the ``Learning to Assemble:
 
 ```
 @ARTICLE{stevsic2020ral,
-author={{StevöiÊ}, Stefan and {Christen}, Sammy and {Hilliges}, Otmar},
+author={{Stev≈°i√¶}, Stefan and {Christen}, Sammy and {Hilliges}, Otmar},
 journal={IEEE Robotics and Automation Letters},
 title={Learning to Assemble: Estimating 6D Poses for Robotic Object-Object Manipulation},
 year={2020},
