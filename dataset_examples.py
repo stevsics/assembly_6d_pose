@@ -113,7 +113,7 @@ def plot_from_arguments(dataset_folder, task_name, dataset, mesh_name='manipulat
     elif dataset == "train_random_mesh":
         dataset_folder_selection = os.path.join(dataset_folder_task, "train_data", "random_mesh")
     elif dataset == "test":
-        dataset_folder_selection = os.path.join(dataset_folder_task, "test_data", "object_0")
+        dataset_folder_selection = os.path.join(dataset_folder_task, "test_data", "object_1")
     else:
         print("Invalid dataset type!")
         exit()
